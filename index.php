@@ -65,7 +65,7 @@
                     <a class="nav-link" href="./index.php">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="./masterlist.php">List of Students</a>
+                    <a class="nav-link" href="./masterlist.php">List of Members</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
@@ -95,14 +95,14 @@
             </div>
 
             <div class="attendance-list">
-                <h4>List of Present Students</h4>
+                <h4>List of Present Members</h4>
                 <div class="table-container table-responsive">
                     <table class="table text-center table-sm" id="attendanceTable">
                         <thead class="thead-dark">
                             <tr>
                             <th scope="col">#</th>
                             <th scope="col">Name</th>
-                            <th scope="col">Course & Section</th>
+                            <th scope="col">Mobile Number</th>
                             <th scope="col">Time In</th>
                             <th scope="col">Action</th>
                             </tr>
