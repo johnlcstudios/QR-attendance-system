@@ -74,7 +74,7 @@
                     <a class="nav-link" href="./index.php">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="./masterlist.php">List of Students</a>
+                    <a class="nav-link" href="./masterlist.php">List of Members</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
@@ -90,8 +90,8 @@
         <div class="student-container">
             <div class="student-list">
                 <div class="title">
-                    <h4>List of Students</h4>
-                    <button class="btn btn-dark" data-toggle="modal" data-target="#addStudentModal">Add Student</button>
+                    <h4>List of Members</h4>
+                    <button class="btn btn-dark" data-toggle="modal" data-target="#addStudentModal">Add Member</button>
                 </div>
                 <hr>
                 <div class="table-container table-responsive">
@@ -100,7 +100,7 @@
                             <tr>
                                 <th scope="col">#</th>
                                 <th scope="col">Name</th>
-                                <th scope="col">Course & Section</th>
+                                <th scope="col">Mobile Number</th>
                                 <th scope="col">Action</th>
                             </tr>
                         </thead>
@@ -171,7 +171,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="addStudent">Add Student</h5>
+                    <h5 class="modal-title" id="addStudent">Add Member</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                     </button>
